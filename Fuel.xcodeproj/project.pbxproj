@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD9AE202A00D566009D8CF9 /* FuelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9AE1F2A00D566009D8CF9 /* FuelApp.swift */; };
+		CAD9AE222A00D566009D8CF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9AE212A00D566009D8CF9 /* ContentView.swift */; };
+		CAD9AE242A00D566009D8CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD9AE232A00D566009D8CF9 /* Assets.xcassets */; };
+		CAD9AE272A00D566009D8CF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD9AE262A00D566009D8CF9 /* Preview Assets.xcassets */; };
+		CAD9AE312A00D567009D8CF9 /* FuelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9AE302A00D567009D8CF9 /* FuelTests.swift */; };
+		CAD9AE3B2A00D567009D8CF9 /* FuelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9AE3A2A00D567009D8CF9 /* FuelUITests.swift */; };
+		CAD9AE3D2A00D567009D8CF9 /* FuelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9AE3C2A00D567009D8CF9 /* FuelUITestsLaunchTests.swift */; };
+		CAD9AE4A2A00D58E009D8CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD9AE492A00D58E009D8CF9 /* Main.storyboard */; };
+		CAD9AE4C2A00DB56009D8CF9 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9AE4B2A00DB56009D8CF9 /* CircularProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD9AE2D2A00D567009D8CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD9AE142A00D566009D8CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD9AE1B2A00D566009D8CF9;
+			remoteInfo = Fuel;
+		};
+		CAD9AE372A00D567009D8CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD9AE142A00D566009D8CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD9AE1B2A00D566009D8CF9;
+			remoteInfo = Fuel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD9AE1C2A00D566009D8CF9 /* Fuel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD9AE1F2A00D566009D8CF9 /* FuelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelApp.swift; sourceTree = "<group>"; };
+		CAD9AE212A00D566009D8CF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAD9AE232A00D566009D8CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD9AE262A00D566009D8CF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD9AE2C2A00D567009D8CF9 /* FuelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD9AE302A00D567009D8CF9 /* FuelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelTests.swift; sourceTree = "<group>"; };
+		CAD9AE362A00D567009D8CF9 /* FuelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD9AE3A2A00D567009D8CF9 /* FuelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelUITests.swift; sourceTree = "<group>"; };
+		CAD9AE3C2A00D567009D8CF9 /* FuelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAD9AE492A00D58E009D8CF9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CAD9AE4B2A00DB56009D8CF9 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD9AE192A00D566009D8CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD9AE292A00D567009D8CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD9AE332A00D567009D8CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD9AE132A00D566009D8CF9 = {
+			isa = PBXGroup;
+			children = (
+				CAD9AE1E2A00D566009D8CF9 /* Fuel */,
+				CAD9AE2F2A00D567009D8CF9 /* FuelTests */,
+				CAD9AE392A00D567009D8CF9 /* FuelUITests */,
+				CAD9AE1D2A00D566009D8CF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD9AE1D2A00D566009D8CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9AE1C2A00D566009D8CF9 /* Fuel.app */,
+				CAD9AE2C2A00D567009D8CF9 /* FuelTests.xctest */,
+				CAD9AE362A00D567009D8CF9 /* FuelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD9AE1E2A00D566009D8CF9 /* Fuel */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9AE1F2A00D566009D8CF9 /* FuelApp.swift */,
+				CAD9AE212A00D566009D8CF9 /* ContentView.swift */,
+				CAD9AE492A00D58E009D8CF9 /* Main.storyboard */,
+				CAD9AE4B2A00DB56009D8CF9 /* CircularProgressView.swift */,
+				CAD9AE232A00D566009D8CF9 /* Assets.xcassets */,
+				CAD9AE252A00D566009D8CF9 /* Preview Content */,
+			);
+			path = Fuel;
+			sourceTree = "<group>";
+		};
+		CAD9AE252A00D566009D8CF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9AE262A00D566009D8CF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD9AE2F2A00D567009D8CF9 /* FuelTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9AE302A00D567009D8CF9 /* FuelTests.swift */,
+			);
+			path = FuelTests;
+			sourceTree = "<group>";
+		};
+		CAD9AE392A00D567009D8CF9 /* FuelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9AE3A2A00D567009D8CF9 /* FuelUITests.swift */,
+				CAD9AE3C2A00D567009D8CF9 /* FuelUITestsLaunchTests.swift */,
+			);
+			path = FuelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD9AE1B2A00D566009D8CF9 /* Fuel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD9AE402A00D567009D8CF9 /* Build configuration list for PBXNativeTarget "Fuel" */;
+			buildPhases = (
+				CAD9AE182A00D566009D8CF9 /* Sources */,
+				CAD9AE192A00D566009D8CF9 /* Frameworks */,
+				CAD9AE1A2A00D566009D8CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fuel;
+			productName = Fuel;
+			productReference = CAD9AE1C2A00D566009D8CF9 /* Fuel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD9AE2B2A00D567009D8CF9 /* FuelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD9AE432A00D567009D8CF9 /* Build configuration list for PBXNativeTarget "FuelTests" */;
+			buildPhases = (
+				CAD9AE282A00D567009D8CF9 /* Sources */,
+				CAD9AE292A00D567009D8CF9 /* Frameworks */,
+				CAD9AE2A2A00D567009D8CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD9AE2E2A00D567009D8CF9 /* PBXTargetDependency */,
+			);
+			name = FuelTests;
+			productName = FuelTests;
+			productReference = CAD9AE2C2A00D567009D8CF9 /* FuelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD9AE352A00D567009D8CF9 /* FuelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD9AE462A00D567009D8CF9 /* Build configuration list for PBXNativeTarget "FuelUITests" */;
+			buildPhases = (
+				CAD9AE322A00D567009D8CF9 /* Sources */,
+				CAD9AE332A00D567009D8CF9 /* Frameworks */,
+				CAD9AE342A00D567009D8CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD9AE382A00D567009D8CF9 /* PBXTargetDependency */,
+			);
+			name = FuelUITests;
+			productName = FuelUITests;
+			productReference = CAD9AE362A00D567009D8CF9 /* FuelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD9AE142A00D566009D8CF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CAD9AE1B2A00D566009D8CF9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CAD9AE2B2A00D567009D8CF9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CAD9AE1B2A00D566009D8CF9;
+					};
+					CAD9AE352A00D567009D8CF9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CAD9AE1B2A00D566009D8CF9;
+					};
+				};
+			};
+			buildConfigurationList = CAD9AE172A00D566009D8CF9 /* Build configuration list for PBXProject "Fuel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD9AE132A00D566009D8CF9;
+			productRefGroup = CAD9AE1D2A00D566009D8CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD9AE1B2A00D566009D8CF9 /* Fuel */,
+				CAD9AE2B2A00D567009D8CF9 /* FuelTests */,
+				CAD9AE352A00D567009D8CF9 /* FuelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD9AE1A2A00D566009D8CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD9AE4A2A00D58E009D8CF9 /* Main.storyboard in Resources */,
+				CAD9AE272A00D566009D8CF9 /* Preview Assets.xcassets in Resources */,
+				CAD9AE242A00D566009D8CF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD9AE2A2A00D567009D8CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD9AE342A00D567009D8CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD9AE182A00D566009D8CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD9AE222A00D566009D8CF9 /* ContentView.swift in Sources */,
+				CAD9AE4C2A00DB56009D8CF9 /* CircularProgressView.swift in Sources */,
+				CAD9AE202A00D566009D8CF9 /* FuelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD9AE282A00D567009D8CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD9AE312A00D567009D8CF9 /* FuelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD9AE322A00D567009D8CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD9AE3D2A00D567009D8CF9 /* FuelUITestsLaunchTests.swift in Sources */,
+				CAD9AE3B2A00D567009D8CF9 /* FuelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD9AE2E2A00D567009D8CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD9AE1B2A00D566009D8CF9 /* Fuel */;
+			targetProxy = CAD9AE2D2A00D567009D8CF9 /* PBXContainerItemProxy */;
+		};
+		CAD9AE382A00D567009D8CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD9AE1B2A00D566009D8CF9 /* Fuel */;
+			targetProxy = CAD9AE372A00D567009D8CF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAD9AE3E2A00D567009D8CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD9AE3F2A00D567009D8CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD9AE412A00D567009D8CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fuel/Preview Content\"";
+				DEVELOPMENT_TEAM = U593FL6U8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odysia.Fuel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD9AE422A00D567009D8CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fuel/Preview Content\"";
+				DEVELOPMENT_TEAM = U593FL6U8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odysia.Fuel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAD9AE442A00D567009D8CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U593FL6U8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odysia.FuelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fuel";
+			};
+			name = Debug;
+		};
+		CAD9AE452A00D567009D8CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U593FL6U8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odysia.FuelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fuel";
+			};
+			name = Release;
+		};
+		CAD9AE472A00D567009D8CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U593FL6U8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odysia.FuelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fuel;
+			};
+			name = Debug;
+		};
+		CAD9AE482A00D567009D8CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U593FL6U8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odysia.FuelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fuel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD9AE172A00D566009D8CF9 /* Build configuration list for PBXProject "Fuel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD9AE3E2A00D567009D8CF9 /* Debug */,
+				CAD9AE3F2A00D567009D8CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD9AE402A00D567009D8CF9 /* Build configuration list for PBXNativeTarget "Fuel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD9AE412A00D567009D8CF9 /* Debug */,
+				CAD9AE422A00D567009D8CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD9AE432A00D567009D8CF9 /* Build configuration list for PBXNativeTarget "FuelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD9AE442A00D567009D8CF9 /* Debug */,
+				CAD9AE452A00D567009D8CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD9AE462A00D567009D8CF9 /* Build configuration list for PBXNativeTarget "FuelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD9AE472A00D567009D8CF9 /* Debug */,
+				CAD9AE482A00D567009D8CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD9AE142A00D566009D8CF9 /* Project object */;
+}
